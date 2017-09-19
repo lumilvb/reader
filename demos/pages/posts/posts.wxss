@@ -1,0 +1,60 @@
+.lunbo{
+  width: 100%;
+  height: 600rpx;
+}
+.post-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  border-color: #fff;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.post-authord-date{
+margin:10rpx 0px 20rpx 10rpx;
+}
+.post-authord-date image{
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+}
+.post-authord-date text{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  font-size: 13px;
+}
+.post-title{
+font-size:14px;
+padding-left: 10rpx;
+margin-bottom: 10px;
+}
+.post-img{
+  width: 100%;
+}
+.post-con{
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  letter-spacing: 2rpx;
+  line-height: 40rpx;
+}
+.post-like{
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 16px;
+}
+.post-like-img{ 
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+}
+.post-like-font{
+  vertical-align: middle;
+  margin-right: 20px;
+  line-height: 20px;
+}

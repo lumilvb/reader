@@ -1,0 +1,5 @@
+<view class="container">
+  <image src="/images/touxiang.png" class="touxiang"></image>
+  <text class="word">Hello 异次元通讯</text>
+  <view class="moto-container" bindtap="onTap"><text class="word moto">开启异次元之旅</text></view>
+</view>

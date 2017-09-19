@@ -1,0 +1,26 @@
+<view class="classname">
+<swiper indicator-dots="true" circular="true" autoplay="true">
+  <swiper-item><image src="/images/s1.jpg" class="lunbo"></image></swiper-item>
+  <swiper-item><image src="/images/s2.jpg" class="lunbo"></image></swiper-item>
+  <swiper-item><image src="/images/s3.png" class="lunbo"></image></swiper-item>
+</swiper>
+<block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="idx">
+<view class="post-container">
+    <view class="post-authord-date">
+      <image wx:if="{{item.img_condiction}}" src="{{item.authord_img}}"></image><text>{{item.date}}</text>
+    </view>
+    <text class="post-title">{{idx}}、{{item.title}}</text>
+    <view class="">
+    <image src="{{item.view_img}}" class="post-img"></image>
+    </view>
+    <text class="post-con">{{item.content}}</text>
+    <view class="post-like">
+      <image src="/images/colect1.png" class="post-like-img"></image>
+      <text class="post-like-font">{{item.collect}}</text>
+      <image src="/images/coment.png" class="post-like-img"></image>
+      <text class="post-like-font">{{item.comment}}</text>
+    </view>
+</view>
+</block>
+
+</view>
